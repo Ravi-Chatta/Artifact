@@ -1,6 +1,7 @@
 Name: Artifact
 
-on: push
+on: [push]
+
 env:
   ARTIFACT_NAME=myartifact
 
