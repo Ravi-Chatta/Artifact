@@ -1,4 +1,4 @@
-Name: Artifact
+name: Artifact
 
 on: [push]
 
@@ -7,8 +7,8 @@ env:
 
 jobs:
   main:
-    runs_on: ubuntu-latest
-   steps:
+   runs_on: ubuntu-latest
+    steps:
     - name: Check out the code
       uses: actions/checkout@v2
     - name: Upload artifact
